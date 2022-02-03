@@ -1,0 +1,16 @@
+[
+    {
+        "arguments": [
+            "clang",
+            "-c",
+            "--target=riscv64-linux-gnu",
+            "-isystem",
+            "/usr/riscv64-linux-gnu/include",
+            "-o",
+            "harness",
+            "main.c"
+        ],
+        "directory": "/home/garrettgu/riscv-shellcode-harness",
+        "file": "main.c"
+    }
+]
